@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Home | Segumax</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/animate.css">
+    <link rel="stylesheet" href="css/hamburgers.css">
+    <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css" integrity="sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz" crossorigin="anonymous">
+</head>
+<body>
+    <header>
+        <div class="wrapper">
+            <div id="logo" class="wow fadeInLeft" data-wow-duration="2s">
+                <img src="img/logo.png"/>
+            </div>
+
+            <nav class="main-nav wow fadeInRight" data-wow-duration="2s">
+                <a data-link="content">servicios</a>
+                <a data-link="testimonios">asegurate</a>
+                <a data-link="contacto">solicita informacion</a>
+            </nav>
+
+            <button class="hamburger hamburger--collapse" type="button">
+                <span class="hamburger-box">
+                    <span class="hamburger-inner"></span>
+                </span>
+            </button>
+        </div>
+    </header>
+
+    <main id="main-home">
+        <section id="hero">
+            <div class="wrapper">
+                <div id="text">
+                    <p class="wow slideInLeft">Vivir tranquilo, sabiendo que alguien te cuida.</p>
+                    <div>
+                        <button class="wow fadeInUp">Solicita un asesor</button>
+                        <button class="wow fadeInUp" data-wow-delay="1s">Conoce mas</button>
+                    </div>
+                </div>
+
+                <div id="floating-images">
+                    <img src="img/image1.png"/>
+                    <img src="img/image2.png"/>
+                </div>
+            </div>
+        </section>
+
+        <section id="content">
+            <div class="wrapper">
+                <div id="content-text" class="wow fadeInUp" data-wow-duration="2s">
+                    <h3>Seguridad y Tranquilidad</h3>
+                    <span>Nuestro mejor resultado:</span>
+                    <span>la confianza de miles de clientes</span>
+                    <span>en toda Argentina.</span>
+                    <button>Solicitar informacion</button>
+                </div>
+
+                <div id="beneficios">
+                    <div class="item wow fadeInUp">
+                        <img src="img/icon-1.svg"/>
+                        <span>Seguridad profesional</span>
+                    </div>
+                    <div class="item wow fadeInUp" data-wow-delay="0.5s">
+                        <img src="img/icon-2.svg"/>
+                        <span>Conexión 24h</span>
+                        <span>Central receptora</span>
+                        <span>de alarmas</span>
+                    </div>
+                    <div class="item wow fadeInUp" data-wow-delay="1s">
+                        <img src="img/icon-3.svg"/>
+                        <span>Rápida</span>
+                        <span>instalacion</span>
+                    </div>
+                    <div class="item wow fadeInUp" data-wow-delay="1.5s">
+                        <img src="img/icon-4.svg"/>
+                        <span>Alerta de seguridad</span>
+                        <span>a través de smartphone</span>
+                    </div>
+                    <div class="item wow fadeInUp" data-wow-delay="2s">
+                        <img src="img/icon-5.svg"/>
+                        <span>Monitoreo</span>
+                        <span>las 24h</span>
+                    </div>
+                    <div class="item wow fadeInUp" data-wow-delay="2.5s">
+                        <img src="img/icon-6.svg"/>
+                        <span>Aviso inmediato</span>
+                        <span>de las fuerzas de</span>
+                        <span>seguridad y asistencia</span>
+                    </div>
+                    <div class="item wow fadeInUp" data-wow-delay="3s">
+                        <img src="img/icon-7.svg"/>
+                        <span>Placas disuasorias</span>
+                        <span>en el exterior</span>
+                    </div>
+                    <div class="item wow fadeInUp" data-wow-delay="3.5s">
+                        <img src="img/icon-8.svg"/>
+                        <span>Pulsador</span>
+                        <span>antipánico</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <section id="testimonios">
+            <div class="wrapper">
+                <div class="info">
+                    <div id="flex">
+                        <div class="info-text wow fadeInLeft">
+                            <h3>Hogares y Personas</h3>
+                            <p>Cuidar tu hogar, es proteger tu mundo</p>
+                            <button>Solicita un asesor</button>
+                        </div>
+                        <div class="info-image wow fadeInRight">
+                            <img src="img/testimonio-1.png"/>
+                        </div>
+                    </div>
+                    <img id="elipse" src="img/elipse.png"/>
+                </div>
+
+                <div class="info">
+                    <div id="flex-2">
+                        <div class="info-text wow fadeInRight">
+                            <h3>Negocios y comercios</h3>
+                            <p>Pensamos en la seguridad de su negocio para que sólo piense en él</p>
+                            <button>Solicita un asesor</button>
+                        </div>
+                        <div class="info-image wow fadeInLeft">
+                            <img src="img/testimonio-2.png"/>
+                        </div>
+                    </div>
+                    <img id="elipse-2" src="img/elipse.png"/>
+                </div>
+            </div>
+        </section>
+
+
+
+        <section id="contacto">
+            <div class="wrapper">
+                <h1 class="wow fadeInUp" data-wow-duration="2s">Solicitar información</h1>
+                <form action="form.php" method="POST" class="wow fadeInUp" data-wow-duration="2s" data-wow-delay="1s">
+                    <input type="text" name="nombre" placeholder="Nombre" required>
+                    <input type="number" name="celular" placeholder="Celular" required>
+                    <input type="email" name="email" placeholder="Email" required>
+                    <textarea name="mensaje" placeholder="Mensaje" required></textarea>
+                    <button type="submit">Enviar</button>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="wrapper">
+            <div class="top">
+                <img src="img/logo.png"/>
+                <nav class="nav-footer">
+                    <a data-link="content">servicios</a>
+                    <a data-link="testimonios">asegurate</a>
+                    <a data-link="contacto">solicita informacion</a>
+                </nav>
+            </div>
+
+            <div class="bottom">
+                <p>2018 Segumax.</p>
+            </div>
+        </div>
+    </footer>
+
+    <a href="#" class="back-to-top" style="display: inline;">
+            <i class="fas fa-arrow-up"></i>  
+    </a>
+
+    <script type="text/javascript" src="https://code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script type="text/javascript" src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+    <script src="js/lib/wow.min.js"></script>
+    <script>
+        new WOW().init();
+    </script>
+    <script src="js/main.js"></script>
+</body>
+</html>
